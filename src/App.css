@@ -7,3 +7,33 @@
 
   font-family: "Montserrat", sans-serif;
 }
+.main {
+  width: 100%;
+  background-color: #0f0f0f;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+header .left .photo-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.main header .left {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.main header .left .contacts {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.main header .left .contacts .contact-item {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #3a3939;
+  border-radius: 50%;
+  cursor: pointer;
+}
