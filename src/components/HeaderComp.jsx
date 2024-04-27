@@ -7,6 +7,7 @@ import {
   MessageOutlined,
   TwitterOutlined,
 } from "@ant-design/icons";
+import { Button } from "antd";
 
 const HeaderComp = () => {
   return (
@@ -33,6 +34,9 @@ const HeaderComp = () => {
         </div>
       </div>
       <div className='right'>
+        <Button className='contact-btn' icon={<MessageOutlined />}>
+          Contactez-moi
+        </Button>
       </div>
     </header>
   );
