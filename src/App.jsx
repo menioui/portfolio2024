@@ -1,6 +1,7 @@
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import FooterComp from "./components/FooterComp";
+import AsideComp from "./components/AsideComp";
 import { Button, Divider } from "antd";
 import { LikeOutlined,LinkOutlined } from '@ant-design/icons';
 import { experience, projects } from "./data/data";
@@ -87,6 +88,7 @@ function App() {
               })}
             </section>
         </div>
+        <AsideComp />
       </div>
       <FooterComp />
   </div>
